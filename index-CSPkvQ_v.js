@@ -10460,7 +10460,7 @@ const lv = "./logo-BjdOEEcy.png",
         className: vc.container,
         children: [
           x.jsxs(vt, {
-            to: "/",
+            to: "/BeansProject/",
             className: vc.logo,
             children: [
               x.jsx("img", { src: lv, alt: "logo" }),
@@ -10469,11 +10469,14 @@ const lv = "./logo-BjdOEEcy.png",
           }),
           x.jsxs("nav", {
             children: [
-              x.jsx(vt, { to: "/beans", children: "Beans" }),
-              x.jsx(vt, { to: "/facts", children: "Facts" }),
-              x.jsx(vt, { to: "/recipes", children: "Recipes" }),
-              x.jsx(vt, { to: "/combinations", children: "Combinations" }),
-              x.jsx(vt, { to: "/history", children: "History" }),
+              x.jsx(vt, { to: "/BeansProject/beans", children: "Beans" }),
+              x.jsx(vt, { to: "/BeansProject/facts", children: "Facts" }),
+              x.jsx(vt, { to: "/BeansProject/recipes", children: "Recipes" }),
+              x.jsx(vt, {
+                to: "/BeansProject/combinations",
+                children: "Combinations",
+              }),
+              x.jsx(vt, { to: "/BeansProject/history", children: "History" }),
             ],
           }),
         ],
@@ -14858,13 +14861,25 @@ function Vw() {
       children: x.jsx(pv, {
         children: x.jsxs(Jg, {
           children: [
-            x.jsx(mt, { path: "/", element: x.jsx(Uw, {}) }),
-            x.jsx(mt, { path: "/beans", element: x.jsx(Tw, {}) }),
-            x.jsx(mt, { path: "/facts", element: x.jsx(_w, {}) }),
-            x.jsx(mt, { path: "/bean/:id", element: x.jsx(Ww, {}) }),
-            x.jsx(mt, { path: "/recipes", element: x.jsx(Fw, {}) }),
-            x.jsx(mt, { path: "/combinations", element: x.jsx(Aw, {}) }),
-            x.jsx(mt, { path: "/history", element: x.jsx($w, {}) }),
+            x.jsx(mt, { path: "/BeansProject/", element: x.jsx(Uw, {}) }),
+            x.jsx(mt, { path: "/BeansProject/beans", element: x.jsx(Tw, {}) }),
+            x.jsx(mt, { path: "/BeansProject/facts", element: x.jsx(_w, {}) }),
+            x.jsx(mt, {
+              path: "/BeansProject/bean/:id",
+              element: x.jsx(Ww, {}),
+            }),
+            x.jsx(mt, {
+              path: "/BeansProject/recipes",
+              element: x.jsx(Fw, {}),
+            }),
+            x.jsx(mt, {
+              path: "/BeansProject/combinations",
+              element: x.jsx(Aw, {}),
+            }),
+            x.jsx(mt, {
+              path: "/BeansProject/history",
+              element: x.jsx($w, {}),
+            }),
           ],
         }),
       }),
