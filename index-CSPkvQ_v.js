@@ -14755,7 +14755,7 @@ const ow = {
       ],
     });
   },
-  Iw = "./main-DwmO4Woc.gif",
+  Iw = "/main.gif",
   Uw = () =>
     x.jsxs("div", {
       className: "home_container",
